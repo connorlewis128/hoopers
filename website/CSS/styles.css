@@ -16,7 +16,7 @@
 	background-image: url(../Images/site%20images/basketball-885786_1920.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: graduate;
+	font-family: 'Graduate';
 	font-style: normal;
 	font-weight: 400;
 }
@@ -65,7 +65,7 @@ nav {
 	
 }
 .navListItem {
-	font-family: graduate;
+	font-family: 'Graduate';
 	font-style: normal;
 	font-weight: 400;
 	float: left;
@@ -395,7 +395,7 @@ footer {
 	background-image: url(../Images/site%20images/basketball-885786_1920.jpg);
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: graduate;
+	font-family: 'Graduate';
 	font-style: normal;
 	font-weight: 400;
 	
@@ -428,7 +428,7 @@ footer {
 	margin-right: 5%;
 }
 h1 {
-	font-family: graduate;
+	font-family: 'Graduate';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 2em;
@@ -501,7 +501,7 @@ p {
 
 @media (max-width: 1200px){
 h1 {
-	font-family: graduate;
+	font-family: 'Graduate';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 2em;
