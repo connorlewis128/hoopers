@@ -1,49 +1,99 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Facility</title>
-<link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
-<link href="../hoopers/CSS/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
-<link href="../hoopers/CSS/styles.css" rel="stylesheet" type="text/css">
-<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.--> 
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facility — Hooper's Training Facility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="CSS/styles.css" rel="stylesheet">
 </head>
+<body>
 
-<body class="about">
-<nav class=" navbar-expand-lg navbar-light ">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent1"> <a href="index.html"><img src="../hoopers/Images/site images/hoopers logo.png" alt="" class="navimg"></a>
-    <ul class=" nav navbar-nav navList  mrauto  ">
-      <li class="navListItem active"><a class="navListItemLink" href="about.html">About</a> </li>
-      <li class="navListItem active"><a class="navListItemLink" href="Store.html">Store</a> </li>
-      <li class="navListItem active"><a class="navListItemLink" href="contact.html">Contact</a></li>
-      <li class="navListItem active"><a class="navListItemLink" href="Reviews.html">Reviews</a> </li>
-      <li class="navListItem active"><a class="navListItemLink" href="Facility.html">Facility</a> </li>
-      <li class="navListItem active"><a class="navListItemLink" href="member.html">Become a member</a> </li>
-    </ul>
-  </div>
-</nav>
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="Images/site images/hoopers logo.png" alt="Hooper's Training">
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html">About</a></li>
+        <li><a href="Facility.html">Facility</a></li>
+        <li><a href="Store.html">Store</a></li>
+        <li><a href="Reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="member.html" class="nav-cta">Become a Member</a></li>
+      </ul>
+    </div>
+  </nav>
 
-<!-- -->
-<section class="aboutSection">
-  <div class="aboutSectionText">
-  <h1 >Courts</h1>
-  
-  <p >We have 2 sets of courts. The first set is for practice, pickup games and individual training. The second set is where league games, coaching sessions and other scheduled events happen.</p>
+  <header class="page-header">
+    <span class="label">Where We Train</span>
+    <h1 class="section-title">Our Facility</h1>
+    <div class="divider divider-center"></div>
+    <p class="section-sub">Professional-grade courts and training equipment for every level of player.</p>
+  </header>
+
+  <div class="content-block reveal">
+    <div class="content-inner">
+      <div class="content-text">
+        <span class="label">Court Access</span>
+        <h2 class="section-title">The Courts</h2>
+        <div class="divider"></div>
+        <p>We have two sets of courts. The first set is open for practice, pickup games, and individual training during unscheduled times. The second set is dedicated to league games, coaching sessions, and other scheduled events — ensuring a focused environment for structured play.</p>
+      </div>
+      <div class="content-img">
+        <img src="Images/site images/basketball court.jpeg" alt="Hooper's basketball courts">
+      </div>
+    </div>
   </div>
-  <img class="aboutAsideRight " src="../hoopers/Images/site images/basketball court.jpeg"  height="auto" alt=""/> </section>
-  <div class="clr"></div>
-<section class="aboutSection">
-  <div class="aboutSectionText">
-  <h1 >Training </h1>
-  <p >We also offer cones, pop up defenders, shot restrictors and other equipment for skills training.
-    Finally we have a fully equipped gym with weights and machines for personal and trainer use.</p>
+
+  <div class="content-block section-alt reveal">
+    <div class="content-inner flip">
+      <div class="content-text">
+        <span class="label">Equipment & Gym</span>
+        <h2 class="section-title">Training</h2>
+        <div class="divider"></div>
+        <p>We also offer cones, pop-up defenders, shot restrictors, and other skills training equipment to help you sharpen your game. Additionally, we have a fully equipped weight room with machines and free weights for personal use and trainer-led sessions.</p>
+      </div>
+      <div class="content-img">
+        <img src="Images/site images/trainer young player.jpeg" alt="Trainer working with a young player">
+      </div>
+    </div>
   </div>
-  <img class="aboutAsideRight" src="../hoopers/Images/site images/trainer young player.jpeg"  height="auto" alt=""/> </section>
-<footer>Copyright 2020 allrights reserved Hooper's TM</footer>
-<script src="../hoopers/js/jquery-3.4.1.min.js"></script> 
-<script src="../hoopers/js/popper.min.js"></script> 
-<script src="../hoopers/js/bootstrap-4.4.1.js"></script>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="Images/site images/hoopers logo.png" alt="Hooper's">
+      </div>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="Facility.html">Facility</a></li>
+        <li><a href="Store.html">Store</a></li>
+        <li><a href="Reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="member.html">Become a Member</a></li>
+      </ul>
+      <p class="footer-copy">© 2024 Hooper's Training Facility</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
