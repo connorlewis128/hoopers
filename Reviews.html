@@ -1,76 +1,116 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Member Reviews</title>
-<link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
-<link href="../hoopers/CSS/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
-<link href="../hoopers/CSS/styles.css" rel="stylesheet" type="text/css">
-<style type="text/css">
-body {
-	background-image: url("../hoopers/Images/site images/AdobeStock_224093859.jpeg");
-	color: #FFFFFF;
-}
-.carousel-caption {
-	color: #000000;
-	height: 100px;
-}
-
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews — Hooper's Training Facility</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="CSS/styles.css" rel="stylesheet">
 </head>
+<body>
 
-<body  style="padding-top: 20px">
-<nav class=" navbar-expand-lg navbar-light ">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent1"> <a href="index.html"><img src="../hoopers/Images/site images/hoopers logo.png" alt="" class="navimg"></a>
-    <ul class=" nav navbar-nav navList  mrauto  ">
-      <li class="navListItem active"><a class="navListItemLink" href="about.html">About</a> </li>
-      <li class="navListItem active"><a class="navListItemLink" href="Store.html">Store</a> </li>
-      <li class="navListItem active"><a class="navListItemLink" href="contact.html">Contact</a></li>
-      <li class="navListItem active"><a class="navListItemLink" href="Reviews.html">Reviews</a> </li>
-      <li class="navListItem active"><a class="navListItemLink" href="Facility.html">Facility</a> </li>
-      <li class="navListItem active"><a class="navListItemLink" href="member.html">Become a member </a> </li>
-    </ul>
-  </div>
-</nav>
-
-<section>
-  <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators1" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators1" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators1" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active"> <img class="d-block  mx-auto" src="../hoopers/Images/site images/review for hoopers .gif" alt="First slide">
-        <div class="carousel-caption" >
-          <h5>Women's League Most Valuable player</h5>
-          <p>Ashley joined to continue playing after graduating college!</p>
-        </div>
-      </div>
-      <div class="carousel-item"> <img class="d-block mx-auto" src="../hoopers/Images/site images/review for hoopers 2.gif" alt="Second slide">
-        <div class="carousel-caption">
-          <h5>Shooting Coach</h5>
-          <p>Dvontay has played professionally overseas and is an elite shooter and wealth of knowledge</p>
-        </div>
-      </div>
-      <div class="carousel-item"> <img class="d-block mx-auto" src="../hoopers/Images/site images/review for hoopers 3.gif" alt="Third slide">
-        <br>
-		<div class="carousel-caption">
-          <h5>Up and Coming Talent</h5>
-          <p>Sarah is only a sophomore in Highschool and has offers from multiple Division 1 programs</p>
-        </div>
-      </div>
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="Images/site images/hoopers logo.png" alt="Hooper's Training">
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="about.html">About</a></li>
+        <li><a href="Facility.html">Facility</a></li>
+        <li><a href="Store.html">Store</a></li>
+        <li><a href="Reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="member.html" class="nav-cta">Become a Member</a></li>
+      </ul>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
-	</div><br>
+  </nav>
 
-</section>
-<footer>Copyright 2020 allrights reserved Hooper's TM</footer>
-<script src="../hoopers/js/jquery-3.4.1.min.js"></script> 
-<script src="../hoopers/js/popper.min.js"></script> 
-<script src="../hoopers/js/bootstrap-4.4.1.js"></script>
+  <header class="page-header">
+    <span class="label">From Our Members</span>
+    <h1 class="section-title">Member Reviews</h1>
+    <div class="divider divider-center"></div>
+    <p class="section-sub">Real stories from players who've made Hooper's their home court.</p>
+  </header>
+
+  <section class="reviews-section">
+    <div class="reviews-grid">
+
+      <div class="review-card reveal">
+        <div class="review-img">
+          <img src="Images/site images/review for hoopers .gif" alt="Ashley — Women's League MVP">
+          <div class="review-img-overlay"></div>
+        </div>
+        <div class="review-body">
+          <div class="review-stars">★★★★★</div>
+          <h3 class="review-title">Ashley</h3>
+          <p class="review-role">Women's League MVP</p>
+          <p class="review-text">Ashley joined Hooper's to continue playing competitively after graduating college. She quickly became one of the standout players in our women's league.</p>
+        </div>
+      </div>
+
+      <div class="review-card reveal delay-1">
+        <div class="review-img">
+          <img src="Images/site images/review for hoopers 2.gif" alt="Dvontay — Shooting Coach">
+          <div class="review-img-overlay"></div>
+        </div>
+        <div class="review-body">
+          <div class="review-stars">★★★★★</div>
+          <h3 class="review-title">Dvontay</h3>
+          <p class="review-role">Shooting Coach</p>
+          <p class="review-text">Dvontay has played professionally overseas and is an elite shooter. He brings a wealth of basketball knowledge and is one of Hooper's most sought-after coaches.</p>
+        </div>
+      </div>
+
+      <div class="review-card reveal delay-2">
+        <div class="review-img">
+          <img src="Images/site images/review for hoopers 3.gif" alt="Sarah — Up and Coming Talent">
+          <div class="review-img-overlay"></div>
+        </div>
+        <div class="review-body">
+          <div class="review-stars">★★★★★</div>
+          <h3 class="review-title">Sarah</h3>
+          <p class="review-role">Up &amp; Coming Talent</p>
+          <p class="review-text">Only a sophomore in high school, Sarah has already drawn offers from multiple Division I programs. Hooper's has been a key part of her rapid development as a player.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="Images/site images/hoopers logo.png" alt="Hooper's">
+      </div>
+      <ul class="footer-links">
+        <li><a href="about.html">About</a></li>
+        <li><a href="Facility.html">Facility</a></li>
+        <li><a href="Store.html">Store</a></li>
+        <li><a href="Reviews.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="member.html">Become a Member</a></li>
+      </ul>
+      <p class="footer-copy">© 2024 Hooper's Training Facility</p>
+    </div>
+  </footer>
+
+  <script>
+    const navToggle = document.getElementById('navToggle');
+    const navLinks = document.getElementById('navLinks');
+    navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => observer.observe(el));
+  </script>
 </body>
 </html>
